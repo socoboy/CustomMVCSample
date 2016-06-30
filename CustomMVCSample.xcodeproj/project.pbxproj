@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6079A011D24D5A000C43FB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A001D24D5A000C43FB6 /* AppDelegate.m */; };
+		D6079A351D24D82100C43FB6 /* AccountAPIService.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A291D24D82100C43FB6 /* AccountAPIService.m */; };
+		D6079A361D24D82100C43FB6 /* AccountDAOService.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A2C1D24D82100C43FB6 /* AccountDAOService.m */; };
+		D6079A371D24D82100C43FB6 /* AccountEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A2E1D24D82100C43FB6 /* AccountEntity.m */; };
+		D6079A381D24D82100C43FB6 /* AccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A311D24D82100C43FB6 /* AccountModel.m */; };
+		D6079A391D24D82100C43FB6 /* AccountStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A341D24D82100C43FB6 /* AccountStore.m */; };
+		D6079A4C1D24D91100C43FB6 /* UserDefaultKeyDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A4B1D24D91100C43FB6 /* UserDefaultKeyDefinition.m */; };
+		D6079A4F1D24D91900C43FB6 /* EnumDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A4E1D24D91900C43FB6 /* EnumDefinition.m */; };
+		D6079A521D24D92800C43FB6 /* NotificationKeyDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A511D24D92800C43FB6 /* NotificationKeyDefinition.m */; };
+		D6079A551D24D95A00C43FB6 /* ColorDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A541D24D95A00C43FB6 /* ColorDefinition.m */; };
+		D6079A5F1D24DA0700C43FB6 /* AccountBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A5E1D24DA0700C43FB6 /* AccountBinding.m */; };
+		D6079A621D24DA1200C43FB6 /* ContactBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A611D24DA1200C43FB6 /* ContactBinding.m */; };
+		D6079A651D24DA1B00C43FB6 /* UserBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A641D24DA1B00C43FB6 /* UserBinding.m */; };
+		D6079A681D24DA3400C43FB6 /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A671D24DA3400C43FB6 /* StringHelper.m */; };
+		D6079A6B1D24DA3F00C43FB6 /* DateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A6A1D24DA3F00C43FB6 /* DateHelper.m */; };
+		D6079A701D24DA6A00C43FB6 /* CircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A6F1D24DA6A00C43FB6 /* CircleButton.m */; };
+		D6079A731D24DA7700C43FB6 /* SmallButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A721D24DA7700C43FB6 /* SmallButton.m */; };
+		D6079A7F1D24DAE600C43FB6 /* AccountAddEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A7D1D24DAE600C43FB6 /* AccountAddEditViewController.m */; };
+		D6079A801D24DAE600C43FB6 /* AccountAddEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6079A7E1D24DAE600C43FB6 /* AccountAddEditViewController.xib */; };
+		D6079A831D24DAFC00C43FB6 /* AccountAddEditBusinessController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A821D24DAFC00C43FB6 /* AccountAddEditBusinessController.m */; };
+		D6079A861D24DB2400C43FB6 /* CustomAddEditAccountField.m in Sources */ = {isa = PBXBuildFile; fileRef = D6079A851D24DB2400C43FB6 /* CustomAddEditAccountField.m */; };
+		D63257321D24BD4100813B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D63257311D24BD4100813B8E /* main.m */; };
+		D632573D1D24BD4100813B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D632573C1D24BD4100813B8E /* Assets.xcassets */; };
+		D63257401D24BD4100813B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D632573E1D24BD4100813B8E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D60799FF1D24D5A000C43FB6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6079A001D24D5A000C43FB6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6079A281D24D82100C43FB6 /* AccountAPIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountAPIService.h; sourceTree = "<group>"; };
+		D6079A291D24D82100C43FB6 /* AccountAPIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountAPIService.m; sourceTree = "<group>"; };
+		D6079A2B1D24D82100C43FB6 /* AccountDAOService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDAOService.h; sourceTree = "<group>"; };
+		D6079A2C1D24D82100C43FB6 /* AccountDAOService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountDAOService.m; sourceTree = "<group>"; };
+		D6079A2D1D24D82100C43FB6 /* AccountEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountEntity.h; sourceTree = "<group>"; };
+		D6079A2E1D24D82100C43FB6 /* AccountEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountEntity.m; sourceTree = "<group>"; };
+		D6079A301D24D82100C43FB6 /* AccountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountModel.h; sourceTree = "<group>"; };
+		D6079A311D24D82100C43FB6 /* AccountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountModel.m; sourceTree = "<group>"; };
+		D6079A331D24D82100C43FB6 /* AccountStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountStore.h; sourceTree = "<group>"; };
+		D6079A341D24D82100C43FB6 /* AccountStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountStore.m; sourceTree = "<group>"; };
+		D6079A4A1D24D91100C43FB6 /* UserDefaultKeyDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultKeyDefinition.h; sourceTree = "<group>"; };
+		D6079A4B1D24D91100C43FB6 /* UserDefaultKeyDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultKeyDefinition.m; sourceTree = "<group>"; };
+		D6079A4D1D24D91900C43FB6 /* EnumDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumDefinition.h; sourceTree = "<group>"; };
+		D6079A4E1D24D91900C43FB6 /* EnumDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumDefinition.m; sourceTree = "<group>"; };
+		D6079A501D24D92800C43FB6 /* NotificationKeyDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationKeyDefinition.h; sourceTree = "<group>"; };
+		D6079A511D24D92800C43FB6 /* NotificationKeyDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationKeyDefinition.m; sourceTree = "<group>"; };
+		D6079A531D24D95A00C43FB6 /* ColorDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDefinition.h; sourceTree = "<group>"; };
+		D6079A541D24D95A00C43FB6 /* ColorDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDefinition.m; sourceTree = "<group>"; };
+		D6079A5D1D24DA0700C43FB6 /* AccountBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountBinding.h; sourceTree = "<group>"; };
+		D6079A5E1D24DA0700C43FB6 /* AccountBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountBinding.m; sourceTree = "<group>"; };
+		D6079A601D24DA1200C43FB6 /* ContactBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactBinding.h; sourceTree = "<group>"; };
+		D6079A611D24DA1200C43FB6 /* ContactBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactBinding.m; sourceTree = "<group>"; };
+		D6079A631D24DA1B00C43FB6 /* UserBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBinding.h; sourceTree = "<group>"; };
+		D6079A641D24DA1B00C43FB6 /* UserBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserBinding.m; sourceTree = "<group>"; };
+		D6079A661D24DA3400C43FB6 /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
+		D6079A671D24DA3400C43FB6 /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringHelper.m; sourceTree = "<group>"; };
+		D6079A691D24DA3F00C43FB6 /* DateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateHelper.h; sourceTree = "<group>"; };
+		D6079A6A1D24DA3F00C43FB6 /* DateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateHelper.m; sourceTree = "<group>"; };
+		D6079A6E1D24DA6A00C43FB6 /* CircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleButton.h; sourceTree = "<group>"; };
+		D6079A6F1D24DA6A00C43FB6 /* CircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleButton.m; sourceTree = "<group>"; };
+		D6079A711D24DA7700C43FB6 /* SmallButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallButton.h; sourceTree = "<group>"; };
+		D6079A721D24DA7700C43FB6 /* SmallButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallButton.m; sourceTree = "<group>"; };
+		D6079A7C1D24DAE600C43FB6 /* AccountAddEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountAddEditViewController.h; sourceTree = "<group>"; };
+		D6079A7D1D24DAE600C43FB6 /* AccountAddEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountAddEditViewController.m; sourceTree = "<group>"; };
+		D6079A7E1D24DAE600C43FB6 /* AccountAddEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountAddEditViewController.xib; sourceTree = "<group>"; };
+		D6079A811D24DAFC00C43FB6 /* AccountAddEditBusinessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountAddEditBusinessController.h; sourceTree = "<group>"; };
+		D6079A821D24DAFC00C43FB6 /* AccountAddEditBusinessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountAddEditBusinessController.m; sourceTree = "<group>"; };
+		D6079A841D24DB2400C43FB6 /* CustomAddEditAccountField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAddEditAccountField.h; sourceTree = "<group>"; };
+		D6079A851D24DB2400C43FB6 /* CustomAddEditAccountField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAddEditAccountField.m; sourceTree = "<group>"; };
+		D632572D1D24BD4100813B8E /* CustomMVCSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomMVCSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63257311D24BD4100813B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D632573C1D24BD4100813B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D632573F1D24BD4100813B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D63257411D24BD4100813B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D632572A1D24BD4100813B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D60799FD1D24D57400C43FB6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D60799FE1D24D5A000C43FB6 /* AppDelegate */,
+				D6079A021D24D5C400C43FB6 /* Modules */,
+				D6079A041D24D63B00C43FB6 /* Universal */,
+				D6079A031D24D5FD00C43FB6 /* Libraries */,
+				D6079A491D24D8EA00C43FB6 /* Definition */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D60799FE1D24D5A000C43FB6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D60799FF1D24D5A000C43FB6 /* AppDelegate.h */,
+				D6079A001D24D5A000C43FB6 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D6079A021D24D5C400C43FB6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A431D24D89B00C43FB6 /* Account */,
+				D6079A441D24D8A100C43FB6 /* Contact */,
+				D6079A451D24D8AA00C43FB6 /* User */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D6079A031D24D5FD00C43FB6 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A591D24D9A600C43FB6 /* UI */,
+				D6079A581D24D98C00C43FB6 /* String */,
+				D6079A571D24D97D00C43FB6 /* Binding */,
+				D6079A561D24D97500C43FB6 /* Date */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		D6079A041D24D63B00C43FB6 /* Universal */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A071D24D69200C43FB6 /* Business */,
+				D6079A081D24D6A200C43FB6 /* ThirdPartyServices */,
+				D6079A091D24D6AD00C43FB6 /* HardwareServices */,
+			);
+			path = Universal;
+			sourceTree = "<group>";
+		};
+		D6079A071D24D69200C43FB6 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A111D24D73D00C43FB6 /* Account */,
+				D6079A101D24D73600C43FB6 /* Contact */,
+				D6079A121D24D74300C43FB6 /* User */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		D6079A081D24D6A200C43FB6 /* ThirdPartyServices */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A0B1D24D6C500C43FB6 /* Google */,
+				D6079A0A1D24D6BE00C43FB6 /* Facebook */,
+			);
+			path = ThirdPartyServices;
+			sourceTree = "<group>";
+		};
+		D6079A091D24D6AD00C43FB6 /* HardwareServices */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A0E1D24D70000C43FB6 /* AddressBookService */,
+				D6079A0D1D24D6EC00C43FB6 /* BluetoothService */,
+				D6079A0C1D24D6CF00C43FB6 /* LocationService */,
+			);
+			path = HardwareServices;
+			sourceTree = "<group>";
+		};
+		D6079A0A1D24D6BE00C43FB6 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		D6079A0B1D24D6C500C43FB6 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		D6079A0C1D24D6CF00C43FB6 /* LocationService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocationService;
+			sourceTree = "<group>";
+		};
+		D6079A0D1D24D6EC00C43FB6 /* BluetoothService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BluetoothService;
+			sourceTree = "<group>";
+		};
+		D6079A0E1D24D70000C43FB6 /* AddressBookService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AddressBookService;
+			sourceTree = "<group>";
+		};
+		D6079A101D24D73600C43FB6 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A3A1D24D85A00C43FB6 /* APIService */,
+				D6079A3B1D24D85A00C43FB6 /* DAO */,
+				D6079A3C1D24D85A00C43FB6 /* Model */,
+				D6079A3D1D24D85A00C43FB6 /* Store */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		D6079A111D24D73D00C43FB6 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A271D24D82100C43FB6 /* APIService */,
+				D6079A2A1D24D82100C43FB6 /* DAO */,
+				D6079A2F1D24D82100C43FB6 /* Model */,
+				D6079A321D24D82100C43FB6 /* Store */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		D6079A121D24D74300C43FB6 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A3E1D24D86000C43FB6 /* APIService */,
+				D6079A3F1D24D86000C43FB6 /* DAO */,
+				D6079A401D24D86000C43FB6 /* Model */,
+				D6079A411D24D86000C43FB6 /* Store */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D6079A271D24D82100C43FB6 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A281D24D82100C43FB6 /* AccountAPIService.h */,
+				D6079A291D24D82100C43FB6 /* AccountAPIService.m */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		D6079A2A1D24D82100C43FB6 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A2B1D24D82100C43FB6 /* AccountDAOService.h */,
+				D6079A2C1D24D82100C43FB6 /* AccountDAOService.m */,
+				D6079A2D1D24D82100C43FB6 /* AccountEntity.h */,
+				D6079A2E1D24D82100C43FB6 /* AccountEntity.m */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		D6079A2F1D24D82100C43FB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A301D24D82100C43FB6 /* AccountModel.h */,
+				D6079A311D24D82100C43FB6 /* AccountModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6079A321D24D82100C43FB6 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A331D24D82100C43FB6 /* AccountStore.h */,
+				D6079A341D24D82100C43FB6 /* AccountStore.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		D6079A3A1D24D85A00C43FB6 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		D6079A3B1D24D85A00C43FB6 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		D6079A3C1D24D85A00C43FB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6079A3D1D24D85A00C43FB6 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		D6079A3E1D24D86000C43FB6 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		D6079A3F1D24D86000C43FB6 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		D6079A401D24D86000C43FB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6079A411D24D86000C43FB6 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		D6079A431D24D89B00C43FB6 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A481D24D8C800C43FB6 /* AddEdit */,
+				D6079A471D24D8BE00C43FB6 /* Detail */,
+				D6079A461D24D8B700C43FB6 /* List */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		D6079A441D24D8A100C43FB6 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		D6079A451D24D8AA00C43FB6 /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D6079A461D24D8B700C43FB6 /* List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		D6079A471D24D8BE00C43FB6 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		D6079A481D24D8C800C43FB6 /* AddEdit */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A7B1D24DAD700C43FB6 /* CustomView */,
+				D6079A7A1D24DACE00C43FB6 /* BusinessController */,
+				D6079A791D24DAC300C43FB6 /* ViewController */,
+			);
+			path = AddEdit;
+			sourceTree = "<group>";
+		};
+		D6079A491D24D8EA00C43FB6 /* Definition */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A4A1D24D91100C43FB6 /* UserDefaultKeyDefinition.h */,
+				D6079A4B1D24D91100C43FB6 /* UserDefaultKeyDefinition.m */,
+				D6079A4D1D24D91900C43FB6 /* EnumDefinition.h */,
+				D6079A4E1D24D91900C43FB6 /* EnumDefinition.m */,
+				D6079A501D24D92800C43FB6 /* NotificationKeyDefinition.h */,
+				D6079A511D24D92800C43FB6 /* NotificationKeyDefinition.m */,
+				D6079A531D24D95A00C43FB6 /* ColorDefinition.h */,
+				D6079A541D24D95A00C43FB6 /* ColorDefinition.m */,
+			);
+			path = Definition;
+			sourceTree = "<group>";
+		};
+		D6079A561D24D97500C43FB6 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A691D24DA3F00C43FB6 /* DateHelper.h */,
+				D6079A6A1D24DA3F00C43FB6 /* DateHelper.m */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		D6079A571D24D97D00C43FB6 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A5A1D24D9E700C43FB6 /* Account */,
+				D6079A5B1D24D9F200C43FB6 /* Contact */,
+				D6079A5C1D24D9F900C43FB6 /* User */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		D6079A581D24D98C00C43FB6 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A661D24DA3400C43FB6 /* StringHelper.h */,
+				D6079A671D24DA3400C43FB6 /* StringHelper.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		D6079A591D24D9A600C43FB6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A6D1D24DA5D00C43FB6 /* CircleButton */,
+				D6079A6C1D24DA4D00C43FB6 /* SmallButton */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D6079A5A1D24D9E700C43FB6 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A5D1D24DA0700C43FB6 /* AccountBinding.h */,
+				D6079A5E1D24DA0700C43FB6 /* AccountBinding.m */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		D6079A5B1D24D9F200C43FB6 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A601D24DA1200C43FB6 /* ContactBinding.h */,
+				D6079A611D24DA1200C43FB6 /* ContactBinding.m */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		D6079A5C1D24D9F900C43FB6 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A631D24DA1B00C43FB6 /* UserBinding.h */,
+				D6079A641D24DA1B00C43FB6 /* UserBinding.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D6079A6C1D24DA4D00C43FB6 /* SmallButton */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A711D24DA7700C43FB6 /* SmallButton.h */,
+				D6079A721D24DA7700C43FB6 /* SmallButton.m */,
+			);
+			path = SmallButton;
+			sourceTree = "<group>";
+		};
+		D6079A6D1D24DA5D00C43FB6 /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A6E1D24DA6A00C43FB6 /* CircleButton.h */,
+				D6079A6F1D24DA6A00C43FB6 /* CircleButton.m */,
+			);
+			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		D6079A791D24DAC300C43FB6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A7C1D24DAE600C43FB6 /* AccountAddEditViewController.h */,
+				D6079A7D1D24DAE600C43FB6 /* AccountAddEditViewController.m */,
+				D6079A7E1D24DAE600C43FB6 /* AccountAddEditViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D6079A7A1D24DACE00C43FB6 /* BusinessController */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A811D24DAFC00C43FB6 /* AccountAddEditBusinessController.h */,
+				D6079A821D24DAFC00C43FB6 /* AccountAddEditBusinessController.m */,
+			);
+			path = BusinessController;
+			sourceTree = "<group>";
+		};
+		D6079A7B1D24DAD700C43FB6 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D6079A841D24DB2400C43FB6 /* CustomAddEditAccountField.h */,
+				D6079A851D24DB2400C43FB6 /* CustomAddEditAccountField.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		D63257241D24BD4100813B8E = {
+			isa = PBXGroup;
+			children = (
+				D632572F1D24BD4100813B8E /* CustomMVCSample */,
+				D632572E1D24BD4100813B8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D632572E1D24BD4100813B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D632572D1D24BD4100813B8E /* CustomMVCSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D632572F1D24BD4100813B8E /* CustomMVCSample */ = {
+			isa = PBXGroup;
+			children = (
+				D60799FD1D24D57400C43FB6 /* Classes */,
+				D632573C1D24BD4100813B8E /* Assets.xcassets */,
+				D632573E1D24BD4100813B8E /* LaunchScreen.storyboard */,
+				D63257411D24BD4100813B8E /* Info.plist */,
+				D63257301D24BD4100813B8E /* Supporting Files */,
+			);
+			path = CustomMVCSample;
+			sourceTree = "<group>";
+		};
+		D63257301D24BD4100813B8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D63257311D24BD4100813B8E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D632572C1D24BD4100813B8E /* CustomMVCSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63257441D24BD4100813B8E /* Build configuration list for PBXNativeTarget "CustomMVCSample" */;
+			buildPhases = (
+				D63257291D24BD4100813B8E /* Sources */,
+				D632572A1D24BD4100813B8E /* Frameworks */,
+				D632572B1D24BD4100813B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomMVCSample;
+			productName = CustomMVCSample;
+			productReference = D632572D1D24BD4100813B8E /* CustomMVCSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D63257251D24BD4100813B8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Tung Duong Thanh";
+				TargetAttributes = {
+					D632572C1D24BD4100813B8E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 65MUWGJ9FF;
+						DevelopmentTeamName = "Global Enterprise Mobility";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D63257281D24BD4100813B8E /* Build configuration list for PBXProject "CustomMVCSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D63257241D24BD4100813B8E;
+			productRefGroup = D632572E1D24BD4100813B8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D632572C1D24BD4100813B8E /* CustomMVCSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D632572B1D24BD4100813B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63257401D24BD4100813B8E /* LaunchScreen.storyboard in Resources */,
+				D6079A801D24DAE600C43FB6 /* AccountAddEditViewController.xib in Resources */,
+				D632573D1D24BD4100813B8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D63257291D24BD4100813B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6079A651D24DA1B00C43FB6 /* UserBinding.m in Sources */,
+				D6079A551D24D95A00C43FB6 /* ColorDefinition.m in Sources */,
+				D6079A861D24DB2400C43FB6 /* CustomAddEditAccountField.m in Sources */,
+				D6079A361D24D82100C43FB6 /* AccountDAOService.m in Sources */,
+				D6079A371D24D82100C43FB6 /* AccountEntity.m in Sources */,
+				D6079A5F1D24DA0700C43FB6 /* AccountBinding.m in Sources */,
+				D6079A6B1D24DA3F00C43FB6 /* DateHelper.m in Sources */,
+				D6079A701D24DA6A00C43FB6 /* CircleButton.m in Sources */,
+				D6079A4F1D24D91900C43FB6 /* EnumDefinition.m in Sources */,
+				D6079A391D24D82100C43FB6 /* AccountStore.m in Sources */,
+				D6079A731D24DA7700C43FB6 /* SmallButton.m in Sources */,
+				D6079A011D24D5A000C43FB6 /* AppDelegate.m in Sources */,
+				D6079A381D24D82100C43FB6 /* AccountModel.m in Sources */,
+				D6079A621D24DA1200C43FB6 /* ContactBinding.m in Sources */,
+				D6079A681D24DA3400C43FB6 /* StringHelper.m in Sources */,
+				D6079A351D24D82100C43FB6 /* AccountAPIService.m in Sources */,
+				D6079A521D24D92800C43FB6 /* NotificationKeyDefinition.m in Sources */,
+				D63257321D24BD4100813B8E /* main.m in Sources */,
+				D6079A831D24DAFC00C43FB6 /* AccountAddEditBusinessController.m in Sources */,
+				D6079A7F1D24DAE600C43FB6 /* AccountAddEditViewController.m in Sources */,
+				D6079A4C1D24D91100C43FB6 /* UserDefaultKeyDefinition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D632573E1D24BD4100813B8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D632573F1D24BD4100813B8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D63257421D24BD4100813B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D63257431D24BD4100813B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D63257451D24BD4100813B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CustomMVCSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gem.tungdt.custommvc.CustomMVCSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D63257461D24BD4100813B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CustomMVCSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gem.tungdt.custommvc.CustomMVCSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D63257281D24BD4100813B8E /* Build configuration list for PBXProject "CustomMVCSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63257421D24BD4100813B8E /* Debug */,
+				D63257431D24BD4100813B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63257441D24BD4100813B8E /* Build configuration list for PBXNativeTarget "CustomMVCSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63257451D24BD4100813B8E /* Debug */,
+				D63257461D24BD4100813B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D63257251D24BD4100813B8E /* Project object */;
+}
